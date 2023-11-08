@@ -26,3 +26,5 @@ Nuxt.JS 2.11.0 (VueJS)
 Game Front end
 
 ![NotebookGraph](/front/static/imgs/firstpage/notebook.png "NotebookGraph")
+
+![MobileGraph](/front/static/imgs/firstpage/mobile.png "MobileGraph")
