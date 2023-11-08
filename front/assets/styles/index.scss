@@ -1,0 +1,162 @@
+@import './custom.scss';
+@import './flex.scss';
+@import './fontcolor.scss';
+@import './fontsize.scss';
+@import './margin.scss';
+@import './padding.scss';
+@import './variables.scss';
+@import './hamburger.css';
+
+@mixin customizeScrollBar($scrWidth, $scrHeight, $cTrack, $cThumb, $cThumbHover) {
+  &::-webkit-scrollbar {
+    width: $scrWidth;
+  }
+  &::-webkit-scrollbar-button {
+    width: $scrWidth;
+    height: $scrHeight;
+  }
+  &::-webkit-scrollbar-track {
+    background: $cTrack;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: $cThumb;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: $cThumbHover;
+  }
+}
+
+$scrollbarWidth: 0px;
+
+.scrollbar-wrapper {
+  height: 100%;
+  overflow: auto;
+  @include customizeScrollBar($scrollbarWidth, 0px, transparent, transparent, transparent)
+}
+
+.beauty-scrollbar-wrapper {
+  height: 100%;
+  overflow: auto;
+  &::-webkit-scrollbar-button {
+    background: #323232;
+  }
+  @include customizeScrollBar(6px, 10px, #323232, #4a4a4a, #999999);
+}
+
+html {
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  font-family: 'Yu Gothic';
+  height: 100%;
+  background: black;
+  #__nuxt {
+    height: 100%;
+    #__layout {
+      height: 100%;
+    }
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.font-eng {
+  font-family: 'Bahnschrift';
+}
+
+.root-container {
+  width: 100%;
+  height: 100%;
+  background: $gray35;
+
+  .navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    background: $gray21;
+    height: $navbarHeightLg;
+
+    .navbar-small {
+      width: 100%;
+      max-width: $desktopMaxWidth;
+      padding: 0px 20px;
+      margin: 0px auto;
+    }
+
+    .navbar-large {
+      width: 100%;
+      max-width: $desktopMaxWidth;
+      padding: 0px 20px;
+      margin: 0px auto;
+    }
+
+    @media (max-width: $menuVisibleWidth) {
+      .navbar-large {
+        padding: 0px 10px 0px 10px;
+      }
+    }
+
+    @media (max-width: 320px) {
+      .navbar-large {
+        padding: 0px;
+      }
+    }
+  }
+
+  .footerbar {
+    // position: fixed;
+    // bottom: 0;
+    // right: 0;
+    // left: 0;
+    // z-index: 1000;
+
+    background: black;
+    height: $footerbarHeight;
+    padding: 0px 10px;
+  }
+  .content {
+    padding-top: $navbarHeightLg;
+    // height: 100%;
+    // padding-bottom: $footerbarHeight;
+    // height: 100%;
+    // min-height: calc(100% - #{$footerbarHeight});
+    // overflow-y: auto;
+    .menubar {
+      position: fixed;
+      top: $navbarHeightLg;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      background-color: $gray35;
+
+      .menubar-content {
+        max-width: $desktopMaxWidth;
+        margin: auto;
+      }
+    }
+  }
+}
+
+.textarea-desc {
+  white-space: pre-wrap;
+  word-break: break-all;
+}

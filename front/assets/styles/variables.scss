@@ -1,0 +1,79 @@
+$desktopMaxWidth: 1500px;
+$footerbarHeight: 150px;
+
+$mainContainerPaddingTop: 30px;
+$mainContainerPaddingBottom: 30px;
+$historyChatBoxMarginTop: 15px;
+$historyChatBoxHeaderHeight: 30px;
+
+$topLineBoxBorderHeight: 2px;
+
+$navbarHeightSm: 40px;
+$navbarHeightLg: 69px;
+
+$totalSpaceHeight: 75px;
+$bettingUserListHeaderHeight: 38px;
+$bettingUserListFooterHeight: 38px;
+
+$menuVisibleWidth: 1140px;
+
+$gray09: #090909;
+$gray1a: #1a1a1a;
+$gray1e: #1e1e1e;
+$gray21: #212121;
+$gray2b: #2b2b2b;
+$gray30: #303030;
+$gray35: #353535;
+$gray4a: #4a4a4a;
+$gray4f: #4f4f4f;
+$gray52: #525252;
+$gray82: #828282;
+$graya0: #a0a0a0;
+$grayb3: #b3b3b3;
+$grayc3: #c3c3c3;
+$graycc: #ccc;
+$grayec: #ececec;
+
+$midorangeyellow: #fccc3f;
+$orangeyellow: #ffe048;
+$lightorangeyellow: #ffea54;
+$darkbrownyellow: #c19837;
+$lightbrownyellow: #d5c253;
+$whiteyellow: #f9f6bb;
+
+$darkorange: #ee683a;
+$ldarkorange: #f37333;
+$darkred: #cc3612;
+$ddarkred: #4e2213;
+$redpink: #ed1e79;
+$lredpink: #f32383;
+
+$yellowgreen: #7faa25;
+$green: #24bc3d;
+$greenhover: #2fc849;
+
+/* new */
+$crashbigcolor: rgb(46, 204, 113);
+$crashsmallcolor: rgb(255, 90, 95);
+$betfontcolor: #e58929;
+/* new */
+$skyblue: #13b1e8;
+$skybluehover: #1ebce3;
+
+$disableEditBack: #c0c0c0;
+
+:export {
+  desktopMaxWidth: $desktopMaxWidth;
+  footerbarHeight: $footerbarHeight;
+  mainContainerPaddingTop: $mainContainerPaddingTop;
+  mainContainerPaddingBottom: $mainContainerPaddingBottom;
+  historyChatBoxMarginTop: $historyChatBoxMarginTop;
+  historyChatBoxHeaderHeight: $historyChatBoxHeaderHeight;
+  topLineBoxBorderHeight: $topLineBoxBorderHeight;
+  navbarHeightSm: $navbarHeightSm;
+  navbarHeightLg: $navbarHeightLg;
+  bettingUserListHeaderHeight: $bettingUserListHeaderHeight;
+  bettingUserListFooterHeight: $bettingUserListFooterHeight;
+  totalSpaceHeight: $totalSpaceHeight;
+  menuVisibleWidth: $menuVisibleWidth;
+}

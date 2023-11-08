@@ -1,0 +1,64 @@
+@import './variables.scss';
+
+.fc-white {
+  color: white;
+}
+
+.fc-black {
+  color: black;
+}
+
+.fc-orangeyellow {
+  color: $orangeyellow;
+}
+
+.fc-darkred {
+  color: $darkred;
+}
+
+.fc-redpink {
+  color: $redpink;
+}
+
+.fc-darkorange {
+  color: $darkorange;
+}
+
+.fc-darkorange1 {
+  color: $crashsmallcolor;
+}
+
+.fc-green-color {
+  color: $crashbigcolor;
+}
+
+.fc-gray35 {
+  color: $gray35;
+}
+
+.fc-grayb3 {
+  color: $grayb3;
+}
+
+.fc-orange-yellow {
+  color: $orangeyellow;
+}
+
+.fc-light-brown-yellow {
+  color: $lightbrownyellow;
+}
+
+.fc-mid-orange-yellow {
+  color: $midorangeyellow;
+}
+
+.fc-green {
+  color: $green;
+}
+
+.fc-crashbigcolor {
+  color: rgb(46, 204, 113);
+}
+.fc-crashsmallcolor {
+  color: rgb(255, 90, 95);;
+}
