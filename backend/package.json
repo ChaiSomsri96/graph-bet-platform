@@ -1,0 +1,36 @@
+{
+  "name": "quickbit",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "chat": "nodemon ./bin/chat",
+    "crash": "nodemon ./bin/crash"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "bigi": "^1.4.2",
+    "bitcoinjs-lib": "^5.1.10",
+    "body-parser": "^1.19.0",
+    "buffer": "^5.6.0",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "dateformat": "^3.0.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.2",
+    "express": "~4.16.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.2.1",
+    "moment": "^2.26.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "random-number": "0.0.9",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  }
+}

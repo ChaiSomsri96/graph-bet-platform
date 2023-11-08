@@ -1,0 +1,18 @@
+{
+  "name": "hash",
+  "version": "1.0.0",
+  "description": "populate hash",
+  "main": "populate_hashes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.1.0",
+    "chance": "^1.0.18",
+    "crypto": "^1.0.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.17.1"
+  }
+}

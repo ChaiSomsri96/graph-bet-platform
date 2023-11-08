@@ -1,0 +1,43 @@
+
+#response { status: 'success' , data: {} } , {status: 'fail', data: null}
+
+# user login
+/User/login
+# get user info (req: token)
+/User/info
+# get user's wallet (req: token)
+/User/wallet
+# get user's total profit  (game log sum of profit)
+/User/getTotalProfit
+# get user's betting data (res: totalBet, totalCount, maxProfit, minProfit)
+/User/getBettingData
+# get Total user count from users and bots
+/User/getUserCount
+# user register
+/User/register
+# send bits from user to another user
+# req: token , user , bits
+/User/sendBits
+# modify user's information
+# req: token, pwd, new_pwd, email
+/User/modify
+
+
+# send message and message to chat socket server
+/Chat/post_msg
+# get chat history
+/Chat/list
+
+# get setting list (need to check)
+/Setting/list
+
+# get user's deposit forward get_deposit_address
+/Bitcoin/get_deposit_address
+# deposit callback api
+# who(user_id)
+# value , input_transaction_hash, transaction_hash
+/Bitcoin/deposit/:who
+# user withdraw request api
+# req: token, amount, to_address
+/Bitcoin/withdraw_request
+
