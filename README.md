@@ -24,3 +24,5 @@ ExpressJs (Node.JS)
 Nuxt.JS 2.11.0 (VueJS)   
 
 Game Front end
+
+![NotebookGraph](/front/static/imgs/firstpage/notebook.png "NotebookGraph")
