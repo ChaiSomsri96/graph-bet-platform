@@ -1,0 +1,154 @@
+//
+.w-full {
+    width: 100%;
+}
+.w-screen {
+    width: 100vw;
+}
+.h-full {
+    height: 100%;
+}
+.h-screen {
+    height: 100vh;
+}
+.max-w-100 {
+    max-width: 100px;
+}
+.max-w-80 {
+    max-width: 80px;
+}
+.min-w-68 {
+    min-width: 68px;
+}
+.w100 {
+    width: 100px;
+}
+.w200 {
+    width: 200px;
+}
+.w300 {
+    width: 300px;
+}
+.max-w-200 {
+    max-width: 200px;
+}
+.max-w-300 {
+    max-width: 300px;
+}
+.max-w-500 {
+    max-width: 500px;
+}
+.max-w-580 {
+    max-width: 580px;
+}
+.mb-micro {
+    margin-bottom: 5px;
+}
+/*
+  layout
+  */
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-col {
+      flex-direction: column;
+  }
+  .flex-row-reverse {
+      flex-direction: row-reverse;
+  }
+  .flex-col-reverse {
+      flex-direction: column-reverse;
+  }
+  .flex-no-wrap {
+      flex-wrap: nowrap;
+  }
+  .flex-wrap {
+      flex-wrap: wrap;
+  }
+  .flex-wrap-reverse {
+      flex-wrap: wrap-reverse;
+  }
+  .items-stretch {
+      align-items: stretch;
+  }
+  .items-start {
+      align-items: flex-start;
+  }
+  .items-center {
+      align-items: center;
+  }
+  .items-end {
+      align-items: flex-end;
+  }
+  .items-baseline {
+      align-items: baseline;
+  }
+  .justify-start {
+      justify-content: flex-start;
+  }
+  .justify-center {
+      justify-content: center;
+  }
+  .justify-end {
+      justify-content: flex-end;
+  }
+  .justify-between {
+      justify-content: space-between;
+  }
+  .justify-around {
+      justify-content: space-around;
+  }
+  .flex-grow {
+      flex-grow: 1;
+  }
+  .flex-grow-0 {
+      flex-grow: 0;
+  }
+  .flex-shrink {
+      flex-shrink: 1;
+  }
+  .flex-shrink-0 {
+      flex-shrink: 0;
+  }
+
+.text-xs {
+    font-size: 12px;
+}
+.text-sm {
+    font-size: 14px;
+}
+.text-base {
+    font-size: 16px;
+}
+.text-lg {
+    font-size: 18px;
+}
+.font-bold {
+    font-weight: bold;
+}
+.add-new-table {
+    thead tr th,
+    tbody tr th {
+        border: 1px solid #aaa;
+        background: #eaeaea;
+        padding: 7px 15px 7px 10px;
+    }
+    tbody tr td {
+        border: 1px solid #aaa;
+        padding: 7px 15px 7px 15px;
+    }
+    input {
+        font-size: 12px;
+    }
+}
+.required-field {
+    color: #fff;
+    background: #d71515;
+    padding: 2px;
+    border-radius: 4px;
+}
