@@ -8,3 +8,19 @@ Features:
 - Bitcoin Integration: Seamlessly bet using Bitcoin for quick and secure transactions.
 - User-Friendly Interface: A straightforward and intuitive interface ensures an enjoyable gaming experience.
 - Open Participation: Anyone can join and play - the platform is designed to be inclusive and globally accessible.
+
+
+1. admin
+
+Laravel 7.0 
+Game Control Panel
+
+2. backend
+
+ExpressJs (Node.JS)
+
+3. front
+
+Nuxt.JS 2.11.0 (VueJS)   
+
+Game Front end
